@@ -1,0 +1,47 @@
+{
+  "name": "jb-selectbox-react",
+  "description": "react mobx jb selectbox input",
+  "author": {
+		"name": "mohammad javad bathaei",
+		"email": "javadbat@gmail.com"
+	},
+  "keywords": [
+    "jb",
+    "jb-selectbox",
+    "jb-selectbox-react",
+    "selectbox",
+    "dropdown",
+    "react",
+    "mobx"
+  ],
+  "version": "0.0.9",
+  "bugs": "https://github.com/javadbat/jb-selectbox-react/issues",
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/",
+    "dist/"
+  ],
+  "main": "./dist/JBSelectBox.cjs.min.js",
+  "jsnext:main":"./dist/JBSelectBox.min.js",
+  "module": "./dist/JBSelectBox.min.js",
+  "repository": {
+		"type": "git",
+		"url": "git@github.com:javadbat/jb-JBSelectBox-react.git"
+  },
+  "jspm": {
+    "main": "./dist/JBSelectBox.systemjs.min.js",
+    "format":"register",
+    "files": [
+      "dist/JBSelectBox.systemjs.min.js",
+      "dist/JBSelectBoxData.systemjs.min.js",
+      "dist/JBSelectBox.css",
+      "LICENSE",
+      "README.md"
+    ]
+  },
+  "dependencies": {
+   
+  }
+}
